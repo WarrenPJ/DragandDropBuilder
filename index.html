@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Warmoth Drag-and-Drop Showcase Addons</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.24/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="//localhost:35729/livereload.js"></script>
+    <script src ="custom/js/drag.js"></script>
+    <link href="http://code.jquery.com/ui/1.8.24/themes/blitzer/jquery-ui.css" rel="stylesheet"
+          type="text/css" />
+    <link href="custom/css/drag.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="page-wrap">
+
+<!--    <div id="info">-->
+<!--        <p></p>-->
+<!--    </div>-->
+
+    <div id="dvDest">
+        <img id="string" src="" />
+        <img id="neck" src="" />
+        <img id="puN" src="" />
+        <img id="puM" src="" />
+        <img id="puB" src="" />
+        <img id="jack" src="" />
+        <img id="bridge" src="" />
+        <img id="pickguard" src="" />
+    </div>
+
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Pickguard</a></li>
+            <li><a href="#tabs-2">Bridges</a></li>
+            <li><a href="#tabs-3">Pickups</a></li>
+            <li><a href="#tabs-4">Jacks</a></li>
+            <li><a href="#tabs-5">Necks</a></li>
+            <li><a href="#tabs-6">Strings</a></li>
+        </ul>
+        <div id="tabs-1">
+            <button id="btn-pg">Clear Pickguard</button>
+            <img class="pickguards" alt="" src="./images/pickgaurds/thumbs/redPearl.png" />
+            <img class="pickguards" alt="" src="./images/pickgaurds/thumbs/blackPearl.png" />
+            <img class="pickguards" alt="" src="./images/pickgaurds/thumbs/bluePearl.png" />
+            <img class="pickguards" alt="" src="./images/pickgaurds/thumbs/cream.png" />
+            <img class="pickguards" alt="" src="./images/pickgaurds/thumbs/black.png" />
+            <img class="pickguards" alt="" src="./images/pickgaurds/thumbs/white.png" />
+        </div>
+        <div id="tabs-2">
+            <button id="btn-br" onclick="">Clear Bridge</button>
+            <img class="bridges" alt="" src="./images/bridges/thumbs/blackTrem.png" />
+            <img class="bridges" alt="" src="./images/bridges/thumbs/goldTrem.png" />
+            <img class="bridges" alt="" src="./images/bridges/thumbs/silver.png" />
+            <img class="bridges" alt="" src="./images/bridges/thumbs/black.png" />
+        </div>
+        <div id="tabs-3">
+            <button id="btn-pu">Clear all Pickups</button>
+            <div class="col"><strong>Neck</strong>
+                <img class="pickupsNk" alt="" src="./images/pickups/neck/thumbs/n.png" />
+                <img class="pickupsNk" alt="" src="./images/pickups/neck/thumbs/n1.png" />
+                <img class="pickupsNk" alt="" src="./images/pickups/neck/thumbs/n2.png" />
+                <img class="pickupsNk" alt="" src="./images/pickups/neck/thumbs/n3.png" />
+                <img class="pickupsNk" alt="" src="./images/pickups/neck/thumbs/n4.png" />
+                <img class="pickupsNk" alt="" src="./images/pickups/neck/thumbs/n5.png" />
+            </div>
+            <div class="col"><strong>Middle</strong>
+                <img class="pickupsMd" alt="" src="./images/pickups/middle/thumbs/m.png" />
+                <img class="pickupsMd" alt="" src="./images/pickups/middle/thumbs/m1.png" />
+                <img class="pickupsMd" alt="" src="./images/pickups/middle/thumbs/m2.png" />
+            </div>
+            <div class="col"><strong>Bridge</strong>
+                <img class="pickupsBr" alt="" src="./images/pickups/bridge/thumbs/b.png" />
+                <img class="pickupsBr" alt="" src="./images/pickups/bridge/thumbs/b1.png" />
+                <img class="pickupsBr" alt="" src="./images/pickups/bridge/thumbs/b2.png" />
+                <img class="pickupsBr" alt="" src="./images/pickups/bridge/thumbs/b3.png" />
+                <img class="pickupsBr" alt="" src="./images/pickups/bridge/thumbs/b4.png" />
+                <img class="pickupsBr" alt="" src="./images/pickups/bridge/thumbs/b5.png" />
+            </div>
+        </div>
+        <div id="tabs-4">
+            <button id="btn-jack">Clear Jack</button>
+            <img class="jacks" alt="" src="./images/jacks/thumbs/silver.png" />
+            <img class="jacks" alt="" src="./images/jacks/thumbs/gold.png" />
+            <img class="jacks" alt="" src="./images/jacks/thumbs/black.png" />
+        </div>
+        <div id="tabs-5">
+            <button id="btn-neck">Clear Neck</button>
+            <img class="necks" alt="" src="./images/necks/thumbs/neck1.png" />
+            <img class="necks" alt="" src="./images/necks/thumbs/neck2.png" />
+            <img class="necks" alt="" src="./images/necks/thumbs/neck3.png" />
+            <img class="necks" alt="" src="./images/necks/thumbs/neck4.png" />
+        </div>
+        <div id="tabs-6">
+            <button id="btn-str">Clear Strings</button>
+            <div class="col">
+                <img class="strings" alt="" src="./images/strings/thumbs/strings.png" />
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

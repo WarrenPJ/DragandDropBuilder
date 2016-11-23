@@ -1,0 +1,121 @@
+body {
+    padding: 50px 100px;
+}
+
+.page-wrap{
+    width: 1060px;
+    margin: 0 auto;
+    background-color: f9f9f9;
+}
+#tabs-1 img,#tabs-2 img,#tabs-3 img, #tabs-4 img, #tabs-5 img, #tabs-6 img
+{
+    height: 70px;
+    width: 70px;
+    margin: 10px 5px;
+}
+.col {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.col strong {
+    display: block;
+}
+.col img{
+    background-color:#f9f9f9;
+}
+#tabs-3{
+    /*overflow-x: hidden;*/
+    overflow-y:auto;
+    height:380px;
+}
+button#btn-pg, button#btn-br,button#btn-pu,button#btn-jack, button#btn-neck, button#btn-str {
+    display:block;
+    width:100%;
+    /*margin-bottom:20px;*/
+}
+#dvDest img {
+    height: 500px;
+    width:340px;
+    text-indent: 100vw;
+}
+
+/*.pickupsNk {
+    overflow: visible;
+    position:relative;
+    z-index:9999;
+}*/
+
+#dvDest
+{
+    display: inline-block;
+    position: relative;
+    float:left;
+    border: 5px solid #ccc;
+    padding: 5px;
+    height: 500px;
+    width: 340px;
+    background: url("/images/bodies/honey.jpg"); /* Change body image here by changing the last number (stratBody*[]*)*/
+    background-position: -5px 7px;
+    background-size: contain;
+}
+#tabs
+{
+    display: inline-block;
+    float:left;
+    border: 5px solid #ccc;
+    padding: 5px;
+    height: 500px;
+    width: 350px;
+    background: #9E9E9E;
+}
+/*#info*/
+/*{*/
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*float:left;*/
+    /*border: 5px solid #ccc;*/
+    /*padding: 5px;*/
+    /*height: 500px;*/
+    /*width: 200px;*/
+    /*text-align: center;*/
+/*}*/
+#pickguard {
+    z-index: 3;
+    position: absolute;
+}
+#bridge {
+    z-index: 15;
+    position: absolute;
+}
+#puM, #puB, #puN {
+    z-index: 7;
+    position: absolute;
+}
+#jack {
+    z-index: 5;
+    position: absolute;
+    left: -2px;
+    top: 2px;
+}
+#neck{
+    z-index: 9;
+    position: absolute;
+    zoom: 1.1;
+    left: -12px;
+    top: -18px;
+}
+#string{
+    z-index: 11;
+    position: absolute;
+    zoom: 1.1;
+    left: -12px;
+    top: -15px;
+}
+
+/*jquery css*/
+.ui-widget-header {
+    border: 1px solid #cdd5da;
+    background: #cdd5da;
+    background-image: none;
+}
